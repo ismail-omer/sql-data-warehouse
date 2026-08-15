@@ -332,6 +332,16 @@ data-architecture/
 │
 │
 ├── data/
+|   ├── source/
+│   ├── source_crm/
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_info.csv
+│   │
+│   ├── source_erp/
+│   |   ├── CUST_AZ12.csv
+│   |   ├── LOC_A101.csv
+│   |   └── PX_CAT_G1V2.csv
 │   │
 │   ├── bronze/
 │   │   ├── crm_cust_info.csv
