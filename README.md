@@ -330,11 +330,30 @@ data-architecture/
 │       ├── facts/
 │       └── aggregations/
 │
+│
 ├── data/
-│   ├── source/
+│   │
 │   ├── bronze/
+│   │   ├── crm_cust_info.csv
+│   │   ├── crm_prd_info.csv
+│   │   ├── crm_sales_details.csv
+│   │   ├── erp_cust_az12.csv
+│   │   ├── erp_loc_a101.csv
+│   │   └── erp_px_cat_g1v2.csv
+│   │
 │   ├── silver/
+│   │   ├── crm_cust_info.csv
+│   │   ├── crm_prd_info.csv
+│   │   ├── crm_sales_info.csv
+│   │   ├── erp_cust_az12.csv
+│   │   ├── erp_loc_a101.csv
+│   │   └── erp_px_cat_g1v2.csv
+│   │
 │   └── gold/
+│       ├── dim_customers.csv
+│       ├── dim_products.csv
+│       └── fact_sales.csv
+│
 │
 │
 └── tests/
