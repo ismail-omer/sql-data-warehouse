@@ -128,15 +128,15 @@ CRM Sales Info + Customer Info + Product Info                  →  Sales Fact
 ```
                  DATA WAREHOUSE
        ┌───────────────────────────────┐
-       │   🥉 BRONZE — Raw Data        │
+       │   🥉 BRONZE — Raw Data            │
        └───────────────┬───────────────┘
                         ▼
        ┌───────────────────────────────┐
-       │   🥈 SILVER — Cleaned Data    │
+       │   🥈 SILVER — Cleaned Data        │
        └───────────────┬───────────────┘
                         ▼
        ┌───────────────────────────────┐
-       │   🥇 GOLD — Business-Ready    │
+       │   🥇 GOLD — Business-Ready        │
        └───────────────────────────────┘
 ```
 
